@@ -153,7 +153,7 @@ public class AppTest {
 
 		feedback.type=2;
 		feedback.title="Complaint";
-		feedback.description="Aisa hi hun ji!!";
+		feedback.description="Buses are late from the schedule time on Route 2";
 		feedback.userId = BusPassSession.user.id;
 		feedback.raisedBy = BusPassSession.user.email;
 		

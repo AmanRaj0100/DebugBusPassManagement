@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.amazon.buspassmanagement.AppTest" time="0.608" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.amazon.buspassmanagement.AppTest" time="0.792" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\amarajz\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\amarajz\AppData\Local\Temp\surefire10487251688498426622\surefirebooter-20230219182500274_3.jar C:\Users\amarajz\AppData\Local\Temp\surefire10487251688498426622 2023-02-19T18-24-59_393-jvmRun1 surefire-20230219182500274_1tmp surefire_0-20230219182500274_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\amarajz\AppData\Local\Temp\surefire3889164669049330953\surefirebooter-20230226150941893_3.jar C:\Users\amarajz\AppData\Local\Temp\surefire3889164669049330953 2023-02-26T15-09-40_861-jvmRun1 surefire-20230226150941893_1tmp surefire_0-20230226150941893_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\amarajz\Desktop\Folders\ATLAS 3.0\ATLAS Projects Module\Project Enhancement Task\buspassmanagement_debugging\target\test-classes;C:\Users\amarajz\Desktop\Folders\ATLAS 3.0\ATLAS Projects Module\Project Enhancement Task\buspassmanagement_debugging\target\classes;C:\Users\amarajz\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\amarajz\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\amarajz\.m2\repository\com\microsoft\sqlserver\mssql-jdbc\11.2.0.jre8\mssql-jdbc-11.2.0.jre8.jar;C:\Users\amarajz\.m2\repository\com\microsoft\azure\msal4j\1.13.0\msal4j-1.13.0.jar;C:\Users\amarajz\.m2\repository\com\nimbusds\oauth2-oidc-sdk\9.35\oauth2-oidc-sdk-9.35.jar;C:\Users\amarajz\.m2\repository\com\github\stephenc\jcip\jcip-annotations\1.0-1\jcip-annotations-1.0-1.jar;C:\Users\amarajz\.m2\repository\com\nimbusds\content-type\2.2\content-type-2.2.jar;C:\Users\amarajz\.m2\repository\com\nimbusds\lang-tag\1.6\lang-tag-1.6.jar;C:\Users\amarajz\.m2\repository\com\nimbusds\nimbus-jose-jwt\9.22\nimbus-jose-jwt-9.22.jar;C:\Users\amarajz\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar;C:\Users\amarajz\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar;C:\Users\amarajz\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\amarajz\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\amarajz\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.1\jackson-databind-2.13.2.1.jar;C:\Users\amarajz\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\amarajz\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\amarajz\AppData\Local\Temp\surefire10487251688498426622\surefirebooter-20230219182500274_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\amarajz\AppData\Local\Temp\surefire3889164669049330953\surefirebooter-20230226150941893_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+8"/>
@@ -51,39 +51,39 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\amarajz\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/amarajz/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/amarajz/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Program Files\itacsvc;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\ACMEGuardian\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Quarantine\;C:\Ruby31-x64\bin;C:\Users\amarajz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\amarajz\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\amarajz\GitHubDesktop\bin;C:\Users\amarajz\AppData\Local\Toolbox\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.2\bin;;C:\Users\amarajz\AppData\Local\JetBrains\DataGrip 2022.3.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;C:\WINDOWS\System32;;."/>
+    <property name="java.library.path" value="C:\Users\amarajz\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\amarajz\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:/Users/amarajz/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/amarajz/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Program Files\itacsvc;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files (x86)\ACMEGuardian\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Quarantine\;C:\Ruby31-x64\bin;C:\Users\amarajz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\amarajz\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\amarajz\GitHubDesktop\bin;C:\Users\amarajz\AppData\Local\Toolbox\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.2\bin;;C:\Users\amarajz\AppData\Local\JetBrains\DataGrip 2022.3.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.3.2\bin;;C:\WINDOWS\System32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.5+8"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="raiseComplaint" classname="com.amazon.buspassmanagement.AppTest" time="0.569">
+  <testcase name="raiseComplaint" classname="com.amazon.buspassmanagement.AppTest" time="0.753">
     <system-out><![CDATA[[DB] Driver Loaded Successfully....
-DB Configured using File :)
+DB Configured using File
 [DB] Connection Created Successfully....
 [DB] Executing SQL Query | SELECT * FROM Users WHERE email = 'user@example.com' AND password = '5gbjiw2MGbJM8O44CBgxYup81j/3kS27IrXoAyhrREY='
 [DB] SQL Query Executed...
-[DB] Executing SQL Query | INSERT INTO Feedback (userId, title, description, type, raisedBy) VALUES ( 3, 'Complaint', 'Aisa hi hun ji!!', 2, 'user@example.com')
+[DB] Executing SQL Query | INSERT INTO Feedback (userId, title, description, type, raisedBy) VALUES ( 3, 'Complaint', 'Buses are late from the schedule time on Route 2', 2, 'user@example.com')
 [DB] SQL Query Executed...
 ]]></system-out>
   </testcase>
-  <testcase name="testVehicleExists" classname="com.amazon.buspassmanagement.AppTest" time="0.003">
+  <testcase name="testVehicleExists" classname="com.amazon.buspassmanagement.AppTest" time="0.002">
     <system-out><![CDATA[[DB] Executing SQL Query | SELECT * FROM Vehicle WHERE routeID = 2
 [DB] SQL Query Executed...
 ]]></system-out>
   </testcase>
-  <testcase name="testAdminLogin" classname="com.amazon.buspassmanagement.AppTest" time="0.003">
+  <testcase name="testAdminLogin" classname="com.amazon.buspassmanagement.AppTest" time="0.002">
     <system-out><![CDATA[[DB] Executing SQL Query | SELECT * FROM Users WHERE email = 'admin@example.com' AND password = 'JAvlGPq9JyTdtvBO6x2llnRI1+gxwIyPqCKAn3THIKk='
 [DB] SQL Query Executed...
 ]]></system-out>
   </testcase>
-  <testcase name="testPassValidity" classname="com.amazon.buspassmanagement.AppTest" time="0.007">
+  <testcase name="testPassValidity" classname="com.amazon.buspassmanagement.AppTest" time="0.008">
     <system-out><![CDATA[[DB] Executing SQL Query | SELECT * FROM BusPass WHERE id = 4
 [DB] SQL Query Executed...
 ]]></system-out>
   </testcase>
-  <testcase name="testMinStopExists" classname="com.amazon.buspassmanagement.AppTest" time="0.007">
+  <testcase name="testMinStopExists" classname="com.amazon.buspassmanagement.AppTest" time="0.005">
     <system-out><![CDATA[[DB] Executing SQL Query | SELECT * FROM Stop WHERE routeID = 2
 [DB] SQL Query Executed...
 ]]></system-out>
@@ -93,7 +93,7 @@ DB Configured using File :)
 [DB] SQL Query Executed...
 ]]></system-out>
   </testcase>
-  <testcase name="testStopExists" classname="com.amazon.buspassmanagement.AppTest" time="0.001">
+  <testcase name="testStopExists" classname="com.amazon.buspassmanagement.AppTest" time="0.003">
     <system-out><![CDATA[[DB] Executing SQL Query | SELECT * FROM Stop WHERE routeID = 2
 [DB] SQL Query Executed...
 ]]></system-out>

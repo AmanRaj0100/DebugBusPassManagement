@@ -108,7 +108,7 @@ public class DB {
 				buffer.close();
 				reader.close();
 				
-				System.out.println("DB Configured using File :)");
+				System.out.println("DB Configured using File");
 			}else {
 				System.err.println("Cannot read the DB Config File...");
 			}
